@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Государственное учреждение
+## "Автотранспортное предприятие"
+* [Ссылка на проект](#)
+* [Анимированная инфографика сайта](#)
+* [Правила написания кода](https://code.s3.yandex.net/web-developer/landings/design-rules/index.html)
+* [Ссылка на back-end](#)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Описание
+* Создано приложение с использованием CRA (Create React App). 
+* Общение с сервером и написание логики работы, с использованием fetch API. 
+* Адаптивная верстка сайта и добавление интерактивности с использованием javaScript и React.js.
 
-## Available Scripts
+### Основная функциональность сайта.
+* Авторизация и регистрация пользователя.
+* Отображение текущих данных пользователя в форме редактирования данных.
+* Возможность редактирования данных профиля.
+* Информации о открытых ваканции.
+* Возможность поиска автмобилей для аренды.
+* Возможность фильтрации данных поиска по видам транспортов.
+* Отображение найденных транспортов и избранных транспортов на соответствующих страницах.
+* При закрытии страницы и повторном открытии, данные поиска сохраняются.
+* Количество отображаемых транспортов находится в зависимости от ширины экрана пользовательского устройства.
 
-In the project directory, you can run:
+**Используемые технологии**
+* Html5.
+* CSS (Grid Layout, Flexbox-вёрстка, Медиа Запросы).
+* javaScript.
+* React.
+* Mongodb.
+* Node.js.
+* Express.
+* Mongoose.
+* По стандарту БЭМ.
 
-### `npm start`
+**Планы по доработке кода**
+* Оптимизировать JavaScript-код (структура кода, название функций и переменных).
+* Сделать код полностью объектно-ориентированным.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Инструкция по развёртыванию и системные требования:
+* Клонировать репозиторий <br>
+`git clone...`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Установить зависимости <br>
+`cd movies-explorer-frontend`<br>
+`npm install`
+* Команды для запуска приложения <br> 
+`npm start`<br>
+Запуск приложения в режиме разработки. Для просмотра результатов в браузере откройте http://localhost:3000 После внесения изменений страница перезагрузится автоматически <br>
+`npm run build`<br>
+Создает оптимизированную версию приложения, готовую для развертывания, в папке build
